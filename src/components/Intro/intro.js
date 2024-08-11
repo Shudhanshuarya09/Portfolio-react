@@ -7,18 +7,18 @@ const Intro = () => {
    <section id='intro'>
     <div className='introContent'>
       <span className='hello'>Hello,</span>
-      <br/>
-      <span className='introtext'>I'm <span className='introName'>Shudhanshu Arya</span> <br/> Web Developer</span>
-      <p className='intoPara'>I am a passionate web developer with full of skills and ambitions looking for the great oppurtinity</p>
-      <Link><button className='btn'><img src='/assets/hireme.png' alt=''/> Hire Me </button></Link>
+      
+      <span className='introtext'>I'm <span className='introName'>Shudhanshu Arya</span> <br/> Web Developer.</span>
+      <p className='introPara'>I am a passionate web developer with full of skills and ambitions looking for the great oppurtinity.</p>
+      <Link><button className='btn'><img src='/assets/hireme.png' alt='' className='btnImg'/> Hire Me </button></Link>
       
 
     </div>
-    {/* <img src='/Images/my.jpg' alt=''/> */}
+    <img src='/Images/my.jpg' alt='' className='bg'/>
 
    </section>
 
-  )
+  );
 }
 
 export default Intro;
