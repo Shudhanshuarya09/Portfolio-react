@@ -5,16 +5,19 @@
 } */
 
 .navbar{
-  height: 2rem;
+  height: 4rem;
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
   padding: 1rem 2rem;
   align-items: center;
   justify-content:space-between;
-  color: blue;
-  background-color: aquamarine;
+  /* color: blue;
+  background-color: aquamarine; */
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 
 .logo{
@@ -26,5 +29,31 @@
 .desktopMenuListItem{
 cursor: pointer;
 margin: 1rem;
+font-size: larger;
 
+}
+
+.desktopMenuListItem:hover {
+  color: purple;
+  padding-bottom: 0 5rem;
+  border-bottom: 3px solid purple;
+}
+.desktopMenuBtn{
+  
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  cursor: pointer;
+  border-color: purple;
+
+}
+.desktopMenuImg{
+  object-fit: cover;
+  height: 1rem;
+  
+  margin: 0.5rem;
 }

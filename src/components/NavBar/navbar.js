@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link className="desktopMenuListItem">Clients</Link>
       </div>
       <button className="desktopMenuBtn">
-        <img src="" alt="" className="desktopMenuImg" />
+        <img src="/assets/Contact.png" alt="" className="desktopMenuImg" />
         Contact Me
       </button>
     </nav>
