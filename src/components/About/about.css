@@ -1,0 +1,10 @@
+#about{
+  display: flex;
+
+}
+.aboutImg{
+  height: 70vh;
+  width: 50vw;
+  border-radius: 300px;
+
+}
