@@ -18,7 +18,7 @@ const Skill = () => {
         <div className="skillBar">
           <img src="/Images/content.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
-            <h2 className="heading">Content Writer</h2>
+            <h2 className="heading">Programming</h2>
             <p className="skillBarPara">Presntation of the website</p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const Skill = () => {
         <div className="skillBar">
           <img src="/Images/editing.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
-            <h2 className="heading">Video Editior</h2>
+            <h2 className="heading">Video Editing</h2>
             <p className="skillBarPara">Brain of the Website</p>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Skill = () => {
         <div className="skillBar">
           <img src="/Images/programming.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
-            <h2 className="heading">Programmer</h2>
+            <h2 className="heading">Content Writing</h2>
             <p className="skillBarPara">Competative programming enahnces my problerm solving ability</p>
           </div>
         </div>
