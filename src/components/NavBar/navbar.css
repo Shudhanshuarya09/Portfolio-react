@@ -5,6 +5,7 @@
 } */
 
 .navbar{
+  background-color: rgb(10,10,10);
   height: 4rem;
   width: 100vw;
   max-width: 75rem;

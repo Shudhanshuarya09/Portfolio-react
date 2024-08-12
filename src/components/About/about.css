@@ -1,10 +1,17 @@
 #about{
   display: flex;
+  height: 100vh;
 
 }
 .aboutImg{
   height: 70vh;
   width: 50vw;
-  border-radius: 300px;
 
+  /* border-radius: 300px; */
+
+}
+.aboutImgDiv{
+  /* height: auto;
+  width: auto; */
+  border-radius: 100rem;
 }

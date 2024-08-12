@@ -4,7 +4,7 @@ import "./about.css";
 const About = () => {
   return (
     <section id="about">
-      <div>
+      <div className="aboutImgDiv">
         <img  src="/Images/about.jpg" alt="" className="aboutImg"/>
       </div>
       <div>
