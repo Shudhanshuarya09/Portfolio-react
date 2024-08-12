@@ -19,11 +19,26 @@ const Contact = () => {
 
       {/* Contact-section */}
       <div id="contact">
-
-
-
-
-
+        <h1 className="contactPageTitle">Contact Me</h1>
+        <form className="contactForm">
+          <input type="text" placeholder="Your Name" className="name" />
+          <input type="email" placeholder="Your Email" className="email" />
+          <textarea
+            className="msg"
+            name="message"
+            rows="5"
+            placeholder="Your Messsage"
+          />
+          <button type="submit" value="send" className="contactBtn">
+            Submit
+          </button>
+          <div className="links">
+            <img src="/Images/linkdin.png" alt="" className="link" />
+            <img src="/Images/git.jpg" alt="" className="link" />
+            <img src="/Images/image.jpg" alt="" className="link" />
+            <img src="/Images/yt.jpg" alt="" className="link" />
+          </div>
+        </form>
       </div>
     </section>
   );
