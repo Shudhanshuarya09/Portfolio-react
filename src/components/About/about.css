@@ -1,17 +1,57 @@
 #about{
   display: flex;
   height: 100vh;
+  gap: 2rem;
+  /* flex-direction: column; */
 
 }
 .aboutImg{
-  height: 70vh;
-  width: 50vw;
+  /* object-fit: contain; */
+  height: 90vh;
+  width: 25vw;
 
-  /* border-radius: 300px; */
+  margin-left: 6.5rem;
+  /* border-radius: 50%; */
+
+  border-radius: 10px;
+  border: 1px solid purple;
 
 }
 .aboutImgDiv{
   /* height: auto;
   width: auto; */
   border-radius: 100rem;
+  
+}
+.aboutHeading{
+  font-size: 3rem;
+  margin-right: 18rem;
+  font-weight: 500;
+  border-bottom: 1px solid purple;
+ 
+}
+.aboutPara{
+  margin-top: 0.6rem;
+  font-size: 0.70rem;
+ 
+  /* letter-spacing: 2px; */
+  
+}
+.title{
+font: bolder;
+font-size: 1rem;
+font-weight: 400;
+color: antiquewhite;
+
+/* border-bottom: 2px solid purple; */
+/* padding: 0.25rem; */
+}
+.text{
+  margin-left: 1.75rem;
+  font-weight: 100;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.top{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
