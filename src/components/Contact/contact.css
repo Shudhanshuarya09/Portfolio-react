@@ -1,4 +1,4 @@
-#experience{
+#experience {
   margin: 0 auto;
   min-height: calc(100vh-4rem);
   width: 100vw;
@@ -10,15 +10,15 @@
   text-align: center;
   padding: 0 1rem;
 }
-.experienceHeading{
+.experienceHeading {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
-.experienceDesc{
+.experienceDesc {
   font-size: 1rem;
   font-weight: 200;
 }
-.experienceImages{
+.experienceImages {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,10 +27,65 @@
   flex-wrap: wrap;
   margin: 2rem auto;
 }
-.experienceImage{
+.experienceImage {
   object-fit: contain;
   height: 5rem;
-  margin: .5rem;
+  margin: 0.5rem;
   border: 2px solid purple;
-  
+}
+
+#contact {
+  margin: 0 auto;
+  min-height: calc(100vh-4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+.contactPageTitle {
+  font-size: 3rem;
+}
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 90vw;
+  max-width: 60rem;
+}
+.name,
+.email,
+.msg{
+  font-size: medium;
+  width: 60%;
+  text-align: center;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: rgb(30, 30, 30);
+}
+
+.contactBtn {
+  margin: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+.contactBtn:hover {
+  cursor: pointer;
+  color: purple;
+  box-shadow: purple;
+  border: 2px solid purple;
 }
