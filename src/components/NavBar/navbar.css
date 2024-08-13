@@ -59,3 +59,9 @@ font-size: larger;
   
   margin: 0.5rem;
 }
+
+.active {
+  color: purple;
+  padding-bottom: 0.5rem;
+  border-radius: 2px solid purple;
+}

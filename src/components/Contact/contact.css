@@ -12,10 +12,11 @@
 }
 .experienceHeading {
   margin: 1rem 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  border-bottom: 2px solid purple;
 }
 .experienceDesc {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 200;
 }
 .experienceImages {
@@ -48,7 +49,8 @@
   padding: 0 1rem;
 }
 .contactPageTitle {
-  font-size: 3rem;
+  font-size: 2rem;
+  border-bottom: 2px solid purple;
 }
 .contactForm {
   margin: 1rem;
@@ -62,7 +64,7 @@
 }
 .name,
 .email,
-.msg{
+.msg {
   font-size: medium;
   width: 60%;
   text-align: center;
@@ -70,7 +72,7 @@
   margin: 0.5rem;
   padding: 0.5rem 1rem;
   color: white;
-  
+
   border-radius: 0.25rem;
   background-color: rgb(30, 30, 30);
   border: 1px solid rgb(54, 54, 54);
@@ -84,7 +86,6 @@
   font-size: 1.2rem;
   padding: 0.5rem 2.75rem;
   font-weight: 600;
-  
 }
 .contactBtn:hover {
   cursor: pointer;
@@ -92,7 +93,7 @@
   box-shadow: purple;
   border: 2px solid purple;
 }
-.link{
+.link {
   object-fit: cover;
   height: 2rem;
   width: 2rem;
