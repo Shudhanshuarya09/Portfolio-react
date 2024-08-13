@@ -16,8 +16,9 @@
   border-bottom: 2px solid purple;
 }
 .experienceDesc {
-  font-size: 0.75rem;
+  font-size: 0.80rem;
   font-weight: 200;
+  max-width: 30rem;
 }
 .experienceImages {
   display: flex;

@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <section id="works">
       <h1 className="worksTitle">My Projects</h1>
-      <span className="worksDesc">lorem ipsum51</span>
+      <span className="worksDesc"></span>
       <div className="worksImages">
         <img src="/assets/portfolio-1.png" alt="" className="worksImage" />
         <img src="/assets/portfolio-2.png" alt="" className="worksImage" />

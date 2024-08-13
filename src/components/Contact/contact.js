@@ -6,7 +6,7 @@ const Contact = () => {
     <section className="contactPage">
       <div id="experience">
         <h2 className="experienceHeading">My Experience's</h2>
-        <p className="experienceDesc"> hfuhsdo;fywerfhwefouhwifgfhfhwef</p>
+        <p className="experienceDesc"> I have completed my training, internships at various company's and the platform. I also contributed to the open source cummunity like a ssoc'24.</p>
         <div className="experienceImages">
           <img src="/Images/T.next.png" alt="" className="experienceImage" />
           <img src="/Images/infosys.png" alt="" className="experienceImage" />

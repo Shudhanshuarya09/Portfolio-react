@@ -11,7 +11,7 @@ const Skill = () => {
           <img src="/Images/stack.avif" alt="" className="skillBarImg"/>
           <div className="skillBarText">
             <h2 className="heading">MERN Stack Developer</h2>
-            <p className="skillBarPara">Basic structure of website</p>
+            <p className="skillBarPara">By using these technologies, I create amazing websites.</p>
           </div>
         </div>
 
@@ -19,7 +19,7 @@ const Skill = () => {
           <img src="/Images/content.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
             <h2 className="heading">Programming</h2>
-            <p className="skillBarPara">Presntation of the website</p>
+            <p className="skillBarPara">Programming is beneficial for the good problem solving skills.</p>
           </div>
         </div>
 
@@ -27,7 +27,7 @@ const Skill = () => {
           <img src="/Images/editing.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
             <h2 className="heading">Video Editing</h2>
-            <p className="skillBarPara">Brain of the Website</p>
+            <p className="skillBarPara">I aslo do video editing for my Youtube videos.</p>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ const Skill = () => {
           <img src="/Images/programming.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
             <h2 className="heading">Content Writing</h2>
-            <p className="skillBarPara">Competative programming enahnces my problerm solving ability</p>
+            <p className="skillBarPara">I love writting becuase it gives the power to express your feelings.</p>
           </div>
         </div>
 
