@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section className="contactPage">
       <div id="experience">
-        <h2 className="experienceHeading">My Experience</h2>
+        <h2 className="experienceHeading">My Experience's</h2>
         <p className="experienceDesc"> hfuhsdo;fywerfhwefouhwifgfhfhwef</p>
         <div className="experienceImages">
           <img src="/Images/T.next.png" alt="" className="experienceImage" />
@@ -33,7 +33,7 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <img src="/Images/linkdin.png" alt="" className="link" />
+            <img src="/Images/linkdin.png" alt="https://www.linkedin.com/in/aryashudhanshu09/" className="link" />
             <img src="/Images/git.jpg" alt="" className="link" />
             <img src="/Images/image.jpg" alt="" className="link" />
             <img src="/Images/yt.jpg" alt="" className="link" />

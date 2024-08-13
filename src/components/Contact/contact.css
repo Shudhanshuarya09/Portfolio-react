@@ -30,6 +30,7 @@
 .experienceImage {
   object-fit: contain;
   height: 5rem;
+  /* width: 7rem; */
   margin: 0.5rem;
   border: 2px solid purple;
 }
@@ -69,23 +70,32 @@
   margin: 0.5rem;
   padding: 0.5rem 1rem;
   color: white;
-  border: none;
+  
   border-radius: 0.25rem;
   background-color: rgb(30, 30, 30);
+  border: 1px solid rgb(54, 54, 54);
 }
 
 .contactBtn {
   margin: 1rem;
   background-color: white;
-  border: none;
+  border: 2px solid purple;
   border-radius: 2rem;
   font-size: 1.2rem;
-  padding: 0.5rem 1rem;
-  font-weight: 500;
+  padding: 0.5rem 2.75rem;
+  font-weight: 600;
+  
 }
 .contactBtn:hover {
   cursor: pointer;
   color: purple;
   box-shadow: purple;
   border: 2px solid purple;
+}
+.link{
+  object-fit: cover;
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem 0.5rem;
+  border-radius: 50%;
 }
