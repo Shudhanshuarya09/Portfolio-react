@@ -16,7 +16,7 @@ const Skill = () => {
         </div>
 
         <div className="skillBar">
-          <img src="/Images/content.jpeg" alt="" className="skillBarImg"/>
+          <img src="/Images/programming.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
             <h2 className="heading">Programming</h2>
             <p className="skillBarPara">Programming is beneficial for the good problem solving skills.</p>
@@ -32,7 +32,7 @@ const Skill = () => {
         </div>
 
         <div className="skillBar">
-          <img src="/Images/programming.jpeg" alt="" className="skillBarImg"/>
+          <img src="/Images/content.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
             <h2 className="heading">Content Writing</h2>
             <p className="skillBarPara">I love writting becuase it gives the power to express your feelings.</p>
