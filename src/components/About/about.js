@@ -4,10 +4,10 @@ import "./about.css";
 const About = () => {
   return (
     <section id="about">
-      <div className="aboutImgDiv">
+      
         <img  src="/Images/mee.jpeg" alt="" className="aboutImg"/>
        
-      </div>
+      
       <div>
       <h1 className="aboutHeading">About Me</h1>
         <p className="aboutPara"> 

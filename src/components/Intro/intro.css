@@ -6,6 +6,7 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  
 }
 
 .introContent {
@@ -52,11 +53,11 @@
 
 .bg {
   position: absolute;
-  top: -4rem;
+  top: -2rem;
   right: 0;
   z-index: -1;
   object-fit: cover;
-margin-top: 3rem;
+margin-top: 0.5rem;
   height: 100vh;
 }
 

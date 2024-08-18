@@ -23,10 +23,10 @@
 }
 
 .logo{
-  object-fit: cover;
-  height: 5rem;
-  width: 4rem;
-  border-radius: 1.5rem;
+  /* object-fit: cover; */
+  height: 6rem;
+  width: 3.5rem;
+  
    
 }
 .desktopMenuListItem{

@@ -30,7 +30,7 @@ const Intro = () => {
           </button>
         </Link>
       </div>
-      <img src="/Images/web.png" alt="" className="bg" />
+      <img src="/Images/introoo.png" alt="" className="bg" />
 
       {/* <link src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></link>
     <div>
