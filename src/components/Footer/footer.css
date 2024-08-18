@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: center;
   font-weight: 300;
-  background-color: rgb(15, 15, 15);
+  /* background-color: rgb(15, 15, 15); */
+  background: linear-gradient(to right, #000000, #434343);
   font-size: small;
   display: flex;
   flex-direction: column;

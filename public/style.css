@@ -11,7 +11,10 @@
 }
 
 body {
-  background: rgb(10,10,10);
+  /* background: rgb(10,10,10); */
+  /* background: linear-gradient(to right, #ad5389, #3c1053); */
+  /* background: linear-gradient(to right, #41295a, #2f0743); */
+  background: linear-gradient(to right, #20002c, #cbb4d4);
   color: white;
   overflow: hidden;
   overflow-y: scroll;
