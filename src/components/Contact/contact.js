@@ -1,12 +1,43 @@
 import React from "react";
+import { useRef } from "react";
 import "./contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_pyn5gck",
+        "template_nyc0b85",
+        form.current,
+        "jDSe6SCSvrW63n_Ux1XJ_"
+      )
+
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+          alert('Email sent!');
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
     <section className="contactPage">
       <div id="experience">
         <h2 className="experienceHeading">My Experience's</h2>
-        <p className="experienceDesc"> I have completed my training, internships at various company's and the platform. I also contributed to the open source cummunity like a ssoc'24.</p>
+        <p className="experienceDesc">
+          {" "}
+          I have completed my training, internships at various company's and the
+          platform. I also contributed to the open source cummunity like a
+          ssoc'24.
+        </p>
         <div className="experienceImages">
           <img src="/Images/T.next.png" alt="" className="experienceImage" />
           <img src="/Images/infosys.png" alt="" className="experienceImage" />
@@ -20,9 +51,19 @@ const Contact = () => {
       {/* Contact-section */}
       <div id="contact">
         <h1 className="contactPageTitle">Contact Me</h1>
-        <form className="contactForm">
-          <input type="text" placeholder="Your Name" className="name" />
-          <input type="email" placeholder="Your Email" className="email" />
+        <form className="contactForm" ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            placeholder="Your Name"
+            className="name"
+            name="your_name"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            className="email"
+            name="your_email"
+          />
           <textarea
             className="msg"
             name="message"
@@ -33,7 +74,11 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <img src="/Images/linkdin.png" alt="https://www.linkedin.com/in/aryashudhanshu09/" className="link" />
+            <img
+              src="/Images/linkdin.png"
+              alt="https://www.linkedin.com/in/aryashudhanshu09/"
+              className="link"
+            />
             <img src="/Images/git.jpg" alt="" className="link" />
             <img src="/Images/image.jpg" alt="" className="link" />
             <img src="/Images/yt.jpg" alt="" className="link" />
