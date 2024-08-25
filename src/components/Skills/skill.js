@@ -26,7 +26,7 @@ const Skill = () => {
         <div className="skillBar">
           <img src="/Images/editing.jpeg" alt="" className="skillBarImg"/>
           <div className="skillBarText">
-            <h2 className="heading">Video Editingg</h2>
+            <h2 className="heading">Video Editing</h2>
             <p className="skillBarPara">I aslo do video editing for my Youtube videos.</p>
           </div>
         </div>
