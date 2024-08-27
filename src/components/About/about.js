@@ -20,7 +20,7 @@ const About = () => {
 <span className="title">● Skills:<br/></span>
 
 <div className="text">
-○ Proficient in web development using HTML, CSS, JavaScript, and frameworks.<br/>
+○ Proficient in  the web development using HTML, CSS, JavaScript, and frameworks.<br/>
 ○ Strong knowledge in Data Structures and Algorithms (DSA).<br/>
 ○ Skilled in video editing and content writing for YouTube.<br/>
 </div>
