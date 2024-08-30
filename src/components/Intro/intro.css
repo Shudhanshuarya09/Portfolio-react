@@ -14,7 +14,7 @@
   height: 100vh;
   width: 100vw;
   padding: 2rem;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,10 @@
   font-weight: 100;
 }
 .introName {
-  color: purple;
+  color: rgb(152, 22, 159);
+  text-shadow: black solid 6px;
+  /* font-family: Georgia, 'Times New Roman', Times, serif ; */
+  text-emphasis-color: black;
 }
 .introPara {
   font-size: small;

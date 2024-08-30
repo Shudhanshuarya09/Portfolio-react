@@ -10,14 +10,19 @@ const Intro = () => {
         <span className="hello">Hello,</span>
 
         <span className="introtext">
-          I'm <span className="introName">Shudhanshu Arya</span> <br /> <ReactTypingEffect
-                      text={[" Web Developer.", " Programmer.", " Content Writer.", "Video Editior."]}
-                      speed={100}
-                      eraseSpeed={100}
-                      eraseDelay={1000}
-                      typingDelay={1000}
-                    />
-{" "}
+          I'm <span className="introName">Shudhanshu Arya</span> <br />{" "}
+          <ReactTypingEffect
+            text={[
+              " Web Developer.",
+              " Programmer.",
+              " Content Writer.",
+              "Video Editior.",
+            ]}
+            speed={100}
+            eraseSpeed={100}
+            eraseDelay={1000}
+            typingDelay={1000}
+          />{" "}
         </span>
         <p className="introPara">
           I am a passionate web developer with full of skills and ambitions

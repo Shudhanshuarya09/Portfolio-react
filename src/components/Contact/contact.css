@@ -12,26 +12,26 @@
 }
 .experienceHeading {
   margin: 1rem 0;
-  font-size: 2rem;
+  font-size: 3rem;
   border-bottom: 2px solid purple;
 }
 .experienceDesc {
-  font-size: 0.80rem;
+  font-size: 1.25rem;
   font-weight: 200;
-  max-width: 30rem;
+  max-width: 50rem;
 }
 .experienceImages {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  max-width: 65rem;
+  max-width: 55rem;
   flex-wrap: wrap;
   margin: 2rem auto;
 }
 .experienceImage {
   object-fit: contain;
-  height: 5rem;
+  height: 6rem;
   /* width: 7rem; */
   margin: 0.5rem;
   border: 2px solid purple;
@@ -41,7 +41,7 @@
   margin: 0 auto;
   min-height: calc(100vh-4rem);
   width: 100vw;
-  max-width: 60rem;
+  max-width: 80rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +50,7 @@
   padding: 0 1rem;
 }
 .contactPageTitle {
-  font-size: 2rem;
+  font-size: 3.5rem;
   border-bottom: 2px solid purple;
 }
 .contactForm {
@@ -71,7 +71,7 @@
   text-align: center;
   max-width: 40rem;
   margin: 0.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1rem;
   color: white;
 
   border-radius: 0.25rem;

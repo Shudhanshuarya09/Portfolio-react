@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 2.25rem;
+  font-size: 3.75rem;
   font-weight: 900;
   /* margin-left: 40%; */
   border-bottom: 2px solid purple;
@@ -27,16 +27,18 @@
 .skillBars{
   
   padding: 1rem;
+  font-size: ;
 }
 
 
 .skillBar{
   /* max-width: 75rem; */
-  width: 35rem;
+  width: 45rem;
   display: flex;
   padding: 1rem;
   gap: 2rem;
   border: 1px solid purple;
+  font-size: ;
   /* background-color: rgb(50,50,50); */
   background-color: rgb(20,20,20);
   border-radius: 20px;
@@ -45,16 +47,18 @@
 }
 .heading{
   border-bottom: 2px solid purple;
+  font-size: 1.75rem;
 }
 .skillBarPara{
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 100;
   margin-top: 2px;
 }
 .skillBarImg{
-  height: 50px;
-  width: 60px;
+  height: 70px;
+  width: 100px;
   border-radius: 10px;
+  margin-left: 30px;
  
 
 }
