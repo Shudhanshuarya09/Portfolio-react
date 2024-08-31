@@ -12,7 +12,7 @@
 }
 .worksTitle{
   margin: 1rem 0;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   border-bottom: 2px solid purple;
 }
 .worksDesc{
@@ -24,12 +24,14 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  max-width: 65rem;
+  max-width: 50rem;
   flex-wrap: wrap;
+  object-fit: contain;
 }
 .worksImage{
-  object-fit: contain;
+  
   height: 15rem;
+ /* max-width: 70rem; */
   
   margin: 0.5rem;
 
