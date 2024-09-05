@@ -55,3 +55,16 @@
   /* transition: cubic-bezier(0.175, 0.82, 0.165, 1); */
   cursor: pointer;
 }
+
+.container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: blueviolet;
+
+}
+
