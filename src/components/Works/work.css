@@ -67,7 +67,7 @@
   border: solid black 10px;
 }
 .card-list {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
@@ -79,6 +79,9 @@
   border: solid black 5px;
   border-radius: 40px;
   padding: 0.35rem;
+  background-color: rgb(107, 75, 107);
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.05);
+  transition: 0.2s ease;
 }
 .card-link {
 }
@@ -86,4 +89,15 @@
   height: 200px;
   width: 300px;
   border-radius: 30px;
+}
+.badge{
+  color: white;
+}
+.card-title{
+  color: white;
+}
+.card-button{
+  border: white solid 2px;
+  margin-left: 1.5rem;
+  border-radius: 10px;
 }
