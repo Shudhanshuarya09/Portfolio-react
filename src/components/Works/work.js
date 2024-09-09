@@ -44,7 +44,7 @@ const Work = () => {
               />
               <p className="badge">MERN Stack</p>
               <h2 className="card-title"> Techfest'24 SLIET Weebsite </h2>
-              <button className="card-button">Arow</button>
+              <button className="card-button">Arrow</button>
             </a>
           </li>
           <li className="card-item">
