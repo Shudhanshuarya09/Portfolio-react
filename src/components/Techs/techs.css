@@ -1,3 +1,7 @@
+#techs{
+  text-align: center;
+}
+
 .skillTitle{
   justify-content: center;
   align-items: center;
@@ -12,6 +16,24 @@
 
 .outer{
   display: flex;
+  justify-content: center;
+  padding: 20px;
+ gap: 100px;
+  object-fit: contain;
+ 
+  flex-wrap: wrap;
 
 
+}
+.image{
+  height: 100px;
+  width: 100px;
+}
+.image:hover{
+  border: solid purple 6px;
+  cursor: pointer;
+}
+.para{
+  font: bold;
+  font-size: 1.5rem;
 }
