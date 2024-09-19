@@ -33,6 +33,7 @@ const Work = () => {
 
     <Slider {...settings}>
     <div id="works">
+    <h1 className="worksTitle">My Projects</h1>
       <div className="card-wrapper">
         <ul className="card-list">
           <li className="card-item">
