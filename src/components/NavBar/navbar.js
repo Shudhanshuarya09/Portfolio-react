@@ -22,6 +22,8 @@ const [showMenu, setShowMenu] = useState(false);
 
 
         <Link activeClass='active' to="experience" spy={true} smooth={true} offset={-50} duration={500}  className="desktopMenuListItem">Experience</Link>
+
+        <Link activeClass='active' to="techs" spy={true} smooth={true} offset={-70} duration={500}  className="desktopMenuListItem">Skills</Link>
       </div>
       <button className="desktopMenuBtn" onClick={()=> {
         document.getElementById('contact').scrollIntoView({behaviour: 'smooth'});
