@@ -16,7 +16,7 @@ export const Project = () => {
               <div className="discribe">
                 <p>{d.name}</p>
                 <p>{d.review}</p>
-                <button>Read MOre</button>
+                <button className="buton">Read MOre</button>
               </div>
             </div>
           ))}
