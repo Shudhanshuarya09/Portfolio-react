@@ -1,50 +1,79 @@
-#Project{
-padding: 30px;
-justify-content: center;
-align-items: center;
-/* text-align: center; */
-object-fit: contain;
-
-}
-.titlee{
+/* Outer container for the entire section */
+.outer {
+  height: 400px; /* Adjust height to fit your design */
+  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  font-size: 3.75rem;
-  font-weight: 900;
-  /* margin-left: 40%; */
-  /* border-bottom: 2px solid purple; */
-  
 }
-.photo{
-  width: 500px;
+
+/* Inner container for the carousel */
+.inner {
+  width: 80%; /* Adjust width to fit your design */
+  margin: auto;
+  height: 100%;
+}
+
+/* Card styling */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Container for the image */
+.imagesss {
+  width: 100%;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.discribe{
+
+/* Image styling */
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Text description styling */
+.discribe {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Project name */
+.project-name {
   font-size: 1.5rem;
-  color: black;
-  font-weight: 900;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.buton{
-  font-size: large;
-  padding: 5px;
-  font-weight: 5400;
-  border-radius: 10px;
-  background-color: rgb(23, 177, 244);
+
+/* Project review */
+.project-review {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+.buton {
+  padding: 10px 20px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
-.card{
-  background-color: rgb(94, 2, 86);
+
+.buton:hover {
+  background-color: #0056b3;
 }
-/* .outer{
-background-color: aqua;
-} */
-/* .inner{
-  background-color: brown;
-} */
-.discribe{
-  background-color: aquamarine;
- flex-direction: column;
-  padding: 10px;
- 
+
+/* Title styling */
+.titlee {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
