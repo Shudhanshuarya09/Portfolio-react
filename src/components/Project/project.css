@@ -1,9 +1,13 @@
 /* Outer container for the entire section */
+#Project{
+  padding: 10px;
+}
 .outer {
   height: 400px; /* Adjust height to fit your design */
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 /* Inner container for the carousel */
@@ -11,6 +15,7 @@
   width: 80%; /* Adjust width to fit your design */
   margin: auto;
   height: 100%;
+  margin-top: -20px;
 }
 
 /* Card styling */
@@ -73,7 +78,12 @@
 
 /* Title styling */
 .titlee {
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 3.75rem;
+  font-weight: 900;
+  /* margin-left: 40%; */
+  /* border-bottom: 2px solid purple; */
+
 }

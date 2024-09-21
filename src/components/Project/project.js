@@ -27,7 +27,7 @@ export const Project = () => {
                 <div className="discribe">
                   <p className="project-name">{d.name}</p>
                   <p className="project-review">{d.review}</p>
-                  <button className="buton">Read More</button>
+                  {/* <button className="buton">Read More</button> */}
                 </div>
               </div>
             ))}
@@ -41,12 +41,12 @@ export const Project = () => {
 const data = [
   {
     name: "Sharpcode",
-    img: "/Images/p1.png",  // Images should be placed in the public/Images folder
+    img: "/Images/p2.png",  // Images should be placed in the public/Images folder
     review: "Lorem ipsum 50 sdjgisdsidoufgsduisdbkfjsgduiwefjwekgeuifemhfiusfnashfyofwenfwefgweiegifleuftgf",
   },
   {
-    name: "Techfest SLIET",
-    img: "/Images/p2.png",
+    name: "Portfolio Website",
+    img: "/Images/p1.png",
     review: "Lorem ipsum 50",
   },
   {

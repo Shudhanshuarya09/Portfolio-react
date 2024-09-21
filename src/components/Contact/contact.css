@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
  
 }
 .experienceHeading {
@@ -20,6 +20,9 @@
   font-size: 1.25rem;
   font-weight: 200;
   max-width: 50rem;
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: bisque;
 }
 .experienceImages {
   display: flex;
