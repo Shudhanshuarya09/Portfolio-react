@@ -2,7 +2,8 @@
 padding: 30px;
 justify-content: center;
 align-items: center;
-text-align: center;
+/* text-align: center; */
+object-fit: contain;
 
 }
 .titlee{
@@ -31,4 +32,19 @@ text-align: center;
   border-radius: 10px;
   background-color: rgb(23, 177, 244);
   color: white;
+}
+.card{
+  background-color: rgb(94, 2, 86);
+}
+/* .outer{
+background-color: aqua;
+} */
+/* .inner{
+  background-color: brown;
+} */
+.discribe{
+  background-color: aquamarine;
+ flex-direction: column;
+  padding: 10px;
+ 
 }
