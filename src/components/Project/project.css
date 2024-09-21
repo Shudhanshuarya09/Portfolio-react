@@ -1,0 +1,21 @@
+#Project{
+padding: 30px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.titlee{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3.75rem;
+  font-weight: 900;
+  /* margin-left: 40%; */
+  /* border-bottom: 2px solid purple; */
+  
+}
+.photo{
+  width: 500px;
+  height: 300px;
+}
