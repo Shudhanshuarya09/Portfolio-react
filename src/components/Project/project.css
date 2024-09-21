@@ -30,7 +30,7 @@
 /* Container for the image */
 .imagesss {
   width: 100%;
-  height: 300px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,8 +51,8 @@
 
 /* Project name */
 .project-name {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 2rem;
+  font-weight: bolder;
   margin-bottom: 10px;
 }
 
@@ -60,6 +60,7 @@
 .project-review {
   font-size: 1rem;
   margin-bottom: 15px;
+  font-weight: 100;
 }
 
 /* Button styling */
@@ -83,7 +84,7 @@
   text-align: center;
   font-size: 3.75rem;
   font-weight: 900;
-  /* margin-left: 40%; */
-  /* border-bottom: 2px solid purple; */
+  margin-left: 37%;
+  border-bottom: 2px solid purple;
 
 }

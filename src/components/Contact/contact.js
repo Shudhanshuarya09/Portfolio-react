@@ -74,12 +74,12 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <img
-              src="/Images/linkdin.png"
+            <a href="https://www.linkedin.com/in/aryashudhanshu09/"> <img
+              src="/Images/linkdin.png" 
               alt="https://www.linkedin.com/in/aryashudhanshu09/"
-              className="link"
-            />
-            <img src="/Images/git.jpg" alt="" className="link" />
+              className="link" 
+            /></a>
+            <a href="https://github.com/Shudhanshuarya09"><img src="/Images/git.jpg" alt="" className="link" /></a>
             <img src="/Images/image.jpg" alt="" className="link" />
             <img src="/Images/yt.jpg" alt="" className="link" />
           </div>
