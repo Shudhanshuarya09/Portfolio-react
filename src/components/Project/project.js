@@ -3,7 +3,9 @@ import "./project.css";
 
 export const Project = () => {
   return (
-   <h4>MY PROJECTS</h4>
+  <section id='Project'>
+     <h4>MY PROJECTS</h4>
+  </section>
   )
 }
 export default Project;
