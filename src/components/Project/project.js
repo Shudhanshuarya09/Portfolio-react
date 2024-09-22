@@ -41,17 +41,17 @@ export const Project = () => {
 const data = [
   {
     name: "Sharpcode",
-    img: "/Images/p2.png",  // Images should be placed in the public/Images folder
+    img: "/Images/one.png",  // Images should be placed in the public/Images folder
     review: "Sharpcode is a fully responsive website built using the MERN stack. It offers internships and a variety of courses, making it an excellent platform for learners and professionals alike.",
   },
   {
     name: "Techfest SLIET",
-    img: "/Images/p22.png",
+    img: "/Images/fest.png",
     review: "Developed a fully-featured website for SLIET's Techfest using the MERN stack. The site manages event registrations, schedules, and updates, offering a dynamic, user-friendly experience for participants and organizers.",
   },
   {
     name: "Portfolio Website",
-    img: "/Images/p1.png",
+    img: "/Images/three.png",
     review: "Created a fully responsive personal portfolio website showcasing my frontend skills. Built using React, JavaScript, and Tailwind CSS, it highlights my projects, experience, and technical expertise.",
   },
  
