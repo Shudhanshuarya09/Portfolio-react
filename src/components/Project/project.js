@@ -46,7 +46,7 @@ const data = [
   },
   {
     name: "Techfest SLIET",
-    img: "/Images/p1.png",
+    img: "/Images/p22.png",
     review: "Developed a fully-featured website for SLIET's Techfest using the MERN stack. The site manages event registrations, schedules, and updates, offering a dynamic, user-friendly experience for participants and organizers.",
   },
   {
